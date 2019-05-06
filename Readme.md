@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Алексей Силаков](https://up.htmlacademy.ru/htmlcss/25/user/1047355).
-* Наставник: `Алексей Гуков`.
+* Наставник: [Алексей Гуков] (https://htmlacademy.ru/profile/id277789)https://htmlacademy.ru/profile/id277789
 
 ---
 
