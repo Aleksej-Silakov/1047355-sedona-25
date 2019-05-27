@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
@@ -36,7 +36,7 @@
                     <p>Седона-не атракцион для туристов, там течёт своя жизнь</p>
                     <img alt="фото отеля" height="256" width="800" src="img/feature-picture.jpg">
                 </div>
-                <ul class="Listings">
+                <ul class="listings">
                     <li>
                         <h4>Жильё</h4>
                         <p>Рекомендуем пожить в нашем мотеле, всё как в кино!</p>
@@ -82,24 +82,24 @@
             <p>
                 <label for="appointment-time">Дата заезда:</label>
                 <input id="appointment-time" name="date" placeholder="24 апреля 2017" type="text" value="">
-            <div class="icon-calendar"></div>
+                <button class="icon-calendar" type="button"></button>
             </p>
             <p>
                 <label for="departure-time">Дата выезда:</label>
                 <input id="departure-time" name="date" placeholder="4 июля 2017" type="text" value="">
-            <div class="icon-calendar"></div>
+                <button class="icon-calendar" type="button"></button>
             </p>
-            <div class="">
+            <div>
                 <lable for="adult">Взрослые:</lable>
-                <button class="plus" type="button"></button>
+                <button class="plus" aria-label="plus" type="button"></button>
                 <input id="adult" name="adults" type="text" value="2">
-                <button class="minus" type="button"></button>
+                <button class="minus" aria-label="minus" type="button"></button>
             </div>
             <div>
                 <lable for="kid">Дети:</lable>
-                <button class="plus" type="button"></button>
+                <button class="plus" aria-label="plus" type="button"></button>
                 <input id="kid" name="kids" type="text" value="0">
-                <button class="minus" type="button"></button>
+                <button class="minus" aria-label="minus" type="button"></button>
             </div>
             <button class="search" type="submit">Найти</button>
         </form>
