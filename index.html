@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="ru"
 <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
@@ -82,24 +82,24 @@
             <p>
                 <label for="appointment-time">Дата заезда:</label>
                 <input id="appointment-time" name="date" placeholder="24 апреля 2017" type="text" value="">
-                <button class="icon-calendar" type="button"></button>
+                <button class="icon-calendar" aria-label="Opens the calendar" type="button"></button>
             </p>
             <p>
                 <label for="departure-time">Дата выезда:</label>
                 <input id="departure-time" name="date" placeholder="4 июля 2017" type="text" value="">
-                <button class="icon-calendar" type="button"></button>
+                <button class="button-calendar" aria-label="Opens the calendar" type="button"></button>
             </p>
             <div>
                 <lable for="adult">Взрослые:</lable>
-                <button class="plus" aria-label="plus" type="button"></button>
+                <button class="plus" aria-label="adds one adult" type="button"></button>
                 <input id="adult" name="adults" type="text" value="2">
-                <button class="minus" aria-label="minus" type="button"></button>
+                <button class="minus" aria-label="Removes one adult" type="button"></button>
             </div>
             <div>
                 <lable for="kid">Дети:</lable>
-                <button class="plus" aria-label="plus" type="button"></button>
+                <button class="plus" aria-label="Adds one child" type="button"></button>
                 <input id="kid" name="kids" type="text" value="0">
-                <button class="minus" aria-label="minus" type="button"></button>
+                <button class="minus" aria-label="Removes one child" type="button"></button>
             </div>
             <button class="search" type="submit">Найти</button>
         </form>
