@@ -1,185 +1,193 @@
 body {
-    margin: 0;
-    font-family: "PT Sans", Arial sans-serif;
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 700;
-    color: #000;
-    text-transform: uppercase;
-    background-color: #fff;
-    background-image: url(../img/background-photo.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
+    margin:0;
+    font-family:"PT Sans",Arial sans-serif;
+    font-size:14px;
+    line-height:21px;
+    font-weight:700;
+    color:#000;
+    text-transform:uppercase;
+    background-color:#fff;
+    background-image:url(../img/background-photo.jpg);
+    background-position:top center;
+    background-repeat:no-repeat;
 }
 
 a {
-    text-decoration: none;
+    text-decoration:none;
 }
 
 .button {
-    font: inherit;
-    text-align: center;
-    color: #fff;
-    vertical-align: middle;
-    text-transform: uppercase;
-    background-color: #f2f2f2;
-    border: none;
+    font:inherit;
+    text-align:center;
+    color:#fff;
+    vertical-align:middle;
+    text-transform:uppercase;
+    background-color:#f2f2f2;
+    border:none;
 }
 
 .button:hover {
-    background-color: #81b3d2;
+    background-color:#81b3d2;
 }
 
 .button:focus {
-    background-color: #669ec0;
+    background-color:#669ec0;
 }
 
 .button:active {
-    background-color: #5496bd;
+    background-color:#5496bd;
 }
 
 .main-navigation {
-    font-size: 14px;
-    line-height: 26px;
-    color: #000;
-    background-color: #fff;
+    background-color:#fff;
 }
 
 .site-navigation {
-    list-style: none;
+    list-style:none;
 }
 
 .site-navigation a {
-    color: #000;
+    color:#000;
 }
 
-.site-navigation a:hover, .site-navigation a:focus {
-    color: #81b3d2;
+.site-navigation a:hover,.site-navigation a:focus {
+    color:#81b3d2;
 }
 
 .welcome {
-    width: 459px;
-    height: 353px;
-    object-fit: contain;
+    width:459px;
+    height:353px;
+    object-fit:contain;
 }
 
 .main-welcome {
-    text-align: center;
-    font-size: 21px;
-    line-height: 26px;
-    color: #000;
+    text-align:center;
+    line-height:26px;
+    color:#000;
 }
 
 .welcome-cause {
-    font-size: 14px;
-    line-height: 26px;
-    color: #333;
+    font-size:14px;
+    line-height:26px;
+    color:#333;
 }
 
 .greeting {
-    background-color: #fff;
-    background-image: url(../img/white-back.svg);
-    background-position: 0 0;
-    background-repeat: repeat;
+    font-size:21px;
+    line-height:26px;
+    background-color:#fff;
+    background-image:url(../img/white-back.svg);
+    background-position:0 0;
+    background-repeat:repeat;
 }
 
-.main-benefits-block h2, .main-benefits-block h3, .main-benefits-block h4 {
-    font-size: 21px;
-    line-height: 21px;
-    color: #000;
+.main-benefits-block h2,.main-benefits-block h3,.main-benefits-block h4 {
+    font-size:21px;
+    line-height:21px;
+    color:#000;
 }
 
 .listings {
-    list-style: none;
+    list-style:none;
+    text-align:center;
 }
 
 .main-benefits {
-    list-style: none;
-    text-align: center;
+    list-style:none;
 }
 
-.block-img-right, .block-img-left {
-    color: #fff;
-    background-color: #81b3d2;
+.block-img-right,.block-img-left {
+    color:#fff;
+    background-color:#81b3d2;
+}
+
+.block-img-right h3 {
+    color:#fff;
+}
+
+.block-img-left h4 {
+    color:#fff;
 }
 
 .advantages {
-    background-color: #eeeeee;
+    background-color:#eee;
 }
 
 .advantages li {
-    list-style: none;
-
+    list-style:none;
 }
 
 .interest {
-    color: #000000;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
+    color:#000;
+    font-size:14px;
+    line-height:24px;
+    text-align:center;
 }
 
 .interest h2 {
-    font-size: 30px;
-    line-height: 36px;
+    font-size:30px;
+    line-height:36px;
+}
+
+.button-search {
+    color:#fff;
+    background-color:#766357;
 }
 
 .appointment-form {
-    color: #000000;
-    background-color: #ffffff;
-    background-position: 0 0;
-    background-image: url(../img/white-back.svg);
-    background-repeat: repeat;
+    background-color:#fff;
+    background-position:0 0;
+    background-image:url(../img/white-back.svg);
+    background-repeat:repeat;
 }
 
-.appointment-form input[type="text"],
-.appointment-form input[type="button"] {
-    font: inherit;
-    color: #000000;
-    text-transform: uppercase;
-
-    background-color: #f2f2f2;
-    border: 2px solid #e5e5e5;
+.appointment-form input[type="text"],.appointment-form input[type="button"] {
+    font:inherit;
+    color:#000;
+    text-transform:uppercase;
+    background-color:#f2f2f2;
+    border:2px solid #e5e5e5;
 }
 
+.search-button {
+    color:#fff;
+    background-color:#81b3d2;
+    border:0;
+}
 
 .main-footer {
-    color: #000;
-    background-color: #fff;
-    background-image: url(../img/white-back.svg);
-    background-position: 0 0;
-    background-repeat: repeat;
+    color:#000;
+    background-color:#fff;
+    background-image:url(../img/white-back.svg);
+    background-position:0 0;
+    background-repeat:repeat;
 }
 
 .footer-social a {
-    color: #000;
+    color:#000;
 }
 
 .footer-social {
-    text-align: center;
+    text-align:center;
 }
 
 .footer-social li {
-    list-style: none;
-}
-
-.social-button {
-    color: #fff;
+    list-style:none;
 }
 
 .developer {
-    text-align: right;
+    text-align:right;
 }
 
 .logo svg {
-    width: 115px;
-    height: 41px;
+    width:115px;
+    height:41px;
 }
 
 .logo:hover svg path {
-    fill: #81b3d2;
+    fill:#81b3d2;
 }
 
 .logo:focus svg path {
-    fill: #bdbbbc;
+    fill:#bdbbbc;
 }
