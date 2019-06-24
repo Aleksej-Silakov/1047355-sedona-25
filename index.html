@@ -13,10 +13,10 @@
             <nav class="main-navigation">
                 <a class="header-logo"><img class="logo-sedona" src="img/logo-sedona.svg" alt="логотип седона" width="140" height="71"></a>
                 <ul class="list-navigation">
-                    <li class="item-navigation"><a href="info.html">Информация</a></li>
-                    <li class="item-navigation"><a href="content.html">Фото и видео</a></li>
-                    <li class="item-navigation"><a href="maps.html">Карта штата</a></li>
-                    <li class="item-navigation"><a href="catalog.html">Гостиницы</a></li>
+                    <li class="item-navigation item-navigation-left"><a href="info.html">Информация</a></li>
+                    <li class="item-navigation item-navigation-left"><a href="content.html">Фото и видео</a></li>
+                    <li class="item-navigation item-navigation-right"><a href="maps.html">Карта штата</a></li>
+                    <li class="item-navigation item-navigation-right"><a href="catalog.html">Гостиницы</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,49 +34,58 @@
                 <ol class="advantages-list">
                     <li class="advantages-item">
                         <div class="advantages-wrapper">
-                            <div class="advantages-container">
+                            <div class="advantages-content">
                             <h3>Настоящий городок</h3>
                             <span>— №1 —</span>
-                            <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                            <p class="advantages-title">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
                             </div>
-                            <img class="hotel-photo" src="img/feature-picture.jpg" alt="фото отеля" width="800" height="256">
+                            <img src="img/feature-picture.jpg" alt="фото отеля" width="800" height="256">
                         </div>
                         <ul class="secondary-list">
                             <li class="secondary-item">
+                                <div class="icon icon-house">
+                                    <img src="img/icon-house.svg" alt="иконка дома">
+                                </div>
                                 <h4>Жильё</h4>
                                 <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
                             </li>
                             <li class="secondary-item">
+                                <div class="icon icon-food">
+                                    <img src="img/icon-food.svg" alt="иконка еды">
+                                </div>
                                 <h4>Еда</h4>
                                 <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                             </li>
                             <li class="secondary-item">
+                                <div class="icon icon-souvenirs">
+                                    <img src="img/icon-souvenir.svg" alt="иконка сувенира">
+                                </div>
                                 <h4>Сувениры</h4>
                                 <p>Не только китайского, но и местного производства!</p>
                             </li>
                         </ul>
                     </li>
                     <li class="advantages-item">
-                        <div class="wrapper-box">
-                            <div class="advantages-box">
+                        <div class="advantages-wrapper advantages-wrapper-reverse">
+                            <div class="advantages-content">
                                 <h3>Там есть Мост дьявола</h3>
                                 <span>— №2 —</span>
-                                <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+                                <p class="advantages-title">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
                             </div>
-                            <img class="bridge-photo" src="img/layer-5.jpg" alt="Мост дьявола" width="800" height="256">
+                            <img src="img/layer-5.jpg" alt="Мост дьявола" width="800" height="256">
                         </div>
                     </li>
-                    <li class="advantages-item">
+                    <li class="advantages-item advantages-item-block">
                         <h3>Небольшая площадь</h3>
                         <span>— №3 —</span>
                         <p>Все достопримечательности находятся очень близко</p>
                     </li>
-                    <li class="advantages-item">
+                    <li class="advantages-item advantages-item-block">
                         <h3>Красивая дорога</h3>
                         <span>— №4 —</span>
                         <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                     </li>
-                    <li class="advantages-item">
+                    <li class="advantages-item advantages-item-block">
                         <h3>Мало туристов</h3>
                         <span>— №5 —</span>
                         <p>Большинство едет в гранд каньон и толпится там</p>
@@ -102,7 +111,7 @@
                     </p>
                     <div class="search-form-wrapper">
                     <p class="search-form-row">
-                        <label for="adult">Взрослые:</label>
+                        <label class="search-form-adult" for="adult">Взрослые:</label>
                         <span class="unit-container">
                             <button class="search-form-btn" aria-label="adds one adult" type="button">-</button>
                             <input id="adult" name="adults" type="text" value="2">
@@ -110,7 +119,7 @@
                         </span>
                     </p>
                     <p class="search-form-row">
-                        <label for="kid">Дети:</label>
+                        <label class="search-form-kid" for="kid">Дети:</label>
                         <span class="unit-container">
                             <button class="search-form-btn" aria-label="adds one child" type="button">-</button>
                             <input id="kid" name="kids" type="text" value="0">
@@ -123,15 +132,16 @@
             </section>
             <section class="map">
                 <h2 class="visually-hidden">Карта местности седона</h2>
-                <iframe allowfullscreen height="593" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d475957.83483896346!2d-111.94672641874268!3d34.83906897555744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1455796462463" style="border:0" width="1200"></iframe>
+                <iframe class="map-google" allowfullscreen height="593" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d475957.83483896346!2d-111.94672641874268!3d34.83906897555744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1455796462463" style="border:0" width="1200"></iframe>
+                <img src="img/map.jpg" alt="Карта седоны">
             </section>
         </main>
-        <footer class="main-footer">
+        <footer class="main-footer index-footer">
             <p class="hashtag-text">#Visitsedona</p>
             <ul class="social-list">
-                <li class="social-item"><a class="social-twitter" href="#">Твитер</a></li>
-                <li class="social-item"><a class="social-facebook" href="#">Фейсбук</a></li>
-                <li class="social-item"><a class="social-youtube" href="#">Ютуб</a></li>
+                <li class="social-item"><a class="social-twitter" href="#"><img class="social-icon" src="img/twitter.svg" alt="иконка твитера"></a></li>
+                <li class="social-item"><a class="social-facebook" href="#"><img class="social-icon" src="img/facebook.svg" alt="иконка фесбук"></a></li>
+                <li class="social-item"><a class="social-youtube" href="#"><img class="social-icon" src="img/youtube.svg" alt="иконка ютуб"></a></li>
             </ul>
             <div class="developer">
                 <span>Website by</span>
