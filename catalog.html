@@ -8,7 +8,7 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-    <div class="wrapper">
+    <div class="wrapper wrapper-catalog">
     <header class="page-header">
         <nav class="main-navigation">
             <a class="header-logo" href="index.html"><img class="logo-sedona" src="img/logo-sedona.svg" alt="логотип седона" width="140" height="71" ></a>
@@ -16,7 +16,7 @@
                 <li class="item-navigation item-navigation-left"><a href="info.html">Информация</a></li>
                 <li class="item-navigation item-navigation-left item-navigation-left-second"><a href="content.html">Фото и видео</a></li>
                 <li class="item-navigation item-navigation-right"><a href="maps.html">Карта штата</a></li>
-                <li class="item-navigation item-navigation-right"><a>Гостиницы</a></li>
+                <li class="item-navigation item-navigation-right current"><a>Гостиницы</a></li>
             </ul>
         </nav>
     </header>
@@ -54,18 +54,18 @@
                         <label class="filter-checkbox-label" for="apartment">Апартаменты</label>
                     </p>
                 </fieldset>
-                <div class="filter-range-block">
-                    <h2 class="filter-range-title">Стоимость в сутки (Р):</h2>
+                <div class="filter-range">
+                    <div class="filter-range-title">Стоимость в сутки (р):</div>
                     <div class="price-controls">
-                        <label class="min-price">От <input name="min-price" type="text" value="0"></label>
-                        <label class="max-price">До <input name="max-price" type="text" value="3000"></label>
+                        <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                        <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
                     </div>
                     <div class="range-controls">
                         <div class="scale">
                             <div class="bar"></div>
                         </div>
-                        <div class="rang-toggle rang-toggle-min"></div>
-                        <div class="rang-toggle rang-toggle-max"></div>
+                        <div class="range-toggle range-toggle-min"></div>
+                        <div class="range-toggle range-toggle-max"></div>
                     </div>
                     <button class="btn-transparent" type="submit">Показать</button>
                 </div>
@@ -73,12 +73,8 @@
         </section>
         <section class="results">
             <h2 class="visually-hidden">Результаты поиска</h2>
-            <div class="match">
-                <span>Найдено: 3</span>
-            </div>
-            <div class="sorting">
-                <span>Сортировка:</span>
-            </div>
+                <span class="match">Найдено: 3</span>
+                <span class="sorting">Сортировка:</span>
                 <ul class="sorting-filters">
                     <li>
                         <a class="current" href="#">По цене</a>
@@ -91,15 +87,15 @@
                     </li>
                 </ul>
             <div class="sorting-btn">
-                <a class="sorting-icon-up" href="#"></a>
-                <a class="sorting-icon-down" href="#"></a>
+                <a class="sorting-icon sorting-icon-up" href="#" aria-label="sorting something smaller to bigger"></a>
+                <a class="sorting-icon sorting-icon-down" href="#" aria-label="sorting something bigger to smaller"></a>
             </div>
         </section>
         <ul class="list-hotel">
             <li>
                 <article class="view-result">
                     <div class="view-result-photo">
-                        <img alt="Гостиница Amara Resort SPA" height="90" src="img/hotel-picture-1.jpg" width="135">
+                        <img alt="Гостиница Amara Resort SPA" src="img/hotel-picture-1.jpg" height="90" width="135">
                     </div>
                     <div class="hotel-container">
                         <h2 class="hotel-title">
