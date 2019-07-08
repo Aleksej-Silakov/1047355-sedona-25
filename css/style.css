@@ -124,7 +124,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-welcome {
-    padding-top: 76px;
+    padding-top: 75px;
     background-color: #7bb3d0;
     background-image: url("../img/polygon.svg"), url("../img/background-photo.jpg");
     background-repeat: no-repeat, no-repeat;
@@ -138,12 +138,12 @@ input[type="radio"].visually-hidden {
 }
 
 .welcome-container {
-    padding: 59px 12px 52px;
+    padding: 61px 12px 52px;
     background-color: #ffffff;
 }
 
 .welcome-slogan {
-    margin: 0 auto 29px;
+    margin: 0 auto 27px;
     max-width: 440px;
     padding: 0;
     font-size: 21px;
@@ -173,7 +173,7 @@ input[type="radio"].visually-hidden {
 
 .advantages-item-block {
     width: 400px;
-    padding: 27px 69px 45px;
+    padding: 28px 69px 45px;
 }
 
 .advantages-wrapper {
@@ -196,11 +196,11 @@ input[type="radio"].visually-hidden {
 }
 
 .advantages-number {
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     display: block;
 }
 .advantages-item-number {
-    margin-bottom: 21px;
+    margin-bottom: 20px;
     display: block;
 }
 
@@ -226,7 +226,7 @@ input[type="radio"].visually-hidden {
 }
 
 .secondary-item-title {
-    padding-bottom: 11px;
+    padding-bottom: 10px;
 }
 
 .secondary-list {
@@ -285,15 +285,15 @@ input[type="radio"].visually-hidden {
     font-size: 30px;
     line-height: 24px;
     font-weight: 700;
-    padding-top: 57px;
-    padding-bottom: 31px;
+    padding-top: 56px;
+    padding-bottom: 30px;
     margin: 0;
 }
 
 .search-text {
     line-height: 24px;
     margin: 0;
-    padding-bottom: 45px;
+    padding-bottom: 47px;
 }
 
 .search-btn {
@@ -320,7 +320,7 @@ input[type="radio"].visually-hidden {
 .search-form {
     z-index: 1;
     width: 568px;
-    padding: 56px 55px 54px;
+    padding: 55px 55px 54px;
     margin: 0 auto;
     text-align: left;
     font-weight: 700;
@@ -360,7 +360,7 @@ input[type="radio"].visually-hidden {
     width: 346px;
     border: 2px solid transparent;
     text-transform: uppercase;
-    padding: 9px 11px 9px;
+    padding: 9px 10px 9px;
     padding-right: 40px;
     margin: 0;
     background-color: #f2f2f2;
@@ -650,12 +650,12 @@ input[type="radio"].visually-hidden {
 }
 
 .developer span {
-    padding-top: 15px;
+    padding-top: 13px;
 }
 
 .logo {
     padding-top: 7px;
-    padding-left: 8px;
+    padding-left: 9px;
 }
 
 .logo svg {
@@ -920,7 +920,7 @@ input[type="radio"].visually-hidden {
 
 .sorting-filters a {
     text-decoration: none;
-    padding-left: 5px;
+    margin-left: 5px;
     color: rgba(0, 0, 0, 0.3);
     border-bottom: 1px dotted #81b3d2;
 }
@@ -937,7 +937,7 @@ input[type="radio"].visually-hidden {
 
 .sorting-filters .current {
     color: #81b3d2;
-    padding-left: 12px;
+    margin-left: 11px;
     border: none;
     cursor: text;
 }
