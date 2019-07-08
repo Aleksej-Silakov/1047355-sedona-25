@@ -914,8 +914,8 @@ input[type="radio"].visually-hidden {
 }
 
 .sorting-filters li {
-    padding-left: 33px;
-    padding-top: 7px;
+    padding-left: 28px;
+    padding-top: 5px;
     list-style: none;
 }
 
@@ -937,7 +937,7 @@ input[type="radio"].visually-hidden {
 
 .sorting-filters .current {
     color: #81b3d2;
-    margin-left: 11px;
+    margin-left: 12px;
     border: none;
     cursor: text;
 }
@@ -1119,7 +1119,6 @@ input[type="radio"].visually-hidden {
 .ratio-block .stars {
     margin-top: 2px;
     margin-bottom: 41px;
-    font-size: 18px;
     color: #81b3d2;
 }
 
@@ -1133,6 +1132,9 @@ input[type="radio"].visually-hidden {
 }
 
 .ratio-block .ratio {
-    padding: 4px 13px 6px;
+    padding: 5px 13px 5px;
     background: #f2f2f2;
+}
+.stars img {
+    margin-left: 0.5px;
 }
