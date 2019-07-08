@@ -677,7 +677,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter {
-    padding: 26px 59px 10px 72px;
+    padding: 26px 59px 9px 72px;
     color: #ffffff;
     background-image: url("../img/filter-background.jpg");
     background-position: center;
@@ -879,7 +879,7 @@ input[type="radio"].visually-hidden {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 28px 71px 31px 71px;
+    padding: 29px 71px 31px 71px;
     background: #ffffff;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -914,7 +914,7 @@ input[type="radio"].visually-hidden {
 }
 
 .sorting-filters li {
-    padding-left: 28px;
+    margin-left: 32px;
     padding-top: 5px;
     list-style: none;
 }
@@ -937,7 +937,7 @@ input[type="radio"].visually-hidden {
 
 .sorting-filters .current {
     color: #81b3d2;
-    margin-left: 12px;
+    margin-left: 9px;
     border: none;
     cursor: text;
 }
@@ -1008,7 +1008,7 @@ input[type="radio"].visually-hidden {
     background: #ffffff;
     border-bottom: 1px solid #e5e5e5;
     width: 100%;
-    padding: 22px 73px 30px 72px;
+    padding: 25px 73px 29px 72px;
 }
 
 .view-result-photo {
@@ -1029,7 +1029,6 @@ input[type="radio"].visually-hidden {
 }
 
 .hotel-title a {
-    margin-top: 2px;
     display: block;
     margin-bottom: 5px;
     text-decoration: none;
@@ -1048,12 +1047,12 @@ input[type="radio"].visually-hidden {
 
 .hotel-type span {
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 11px
 }
 
 .reserve span {
     display: block;
-    margin-bottom: 12px;
+    margin-bottom: 11px
 }
 
 .hotel-link:hover,
@@ -1117,9 +1116,8 @@ input[type="radio"].visually-hidden {
 }
 
 .ratio-block .stars {
-    margin-top: 2px;
-    margin-bottom: 41px;
-    color: #81b3d2;
+    margin-top: 3px;
+    margin-bottom: 37px;
 }
 
 .stars .icon-star {
@@ -1136,5 +1134,7 @@ input[type="radio"].visually-hidden {
     background: #f2f2f2;
 }
 .stars img {
-    margin-left: 0.5px;
+    margin-left: 2px;
+    display: inline-block;
+    vertical-align: top;
 }
