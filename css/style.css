@@ -128,8 +128,8 @@ input[type="radio"].visually-hidden {
     background-color: #7bb3d0;
     background-image: url("../img/polygon.svg"), url("../img/background-photo.jpg");
     background-repeat: no-repeat, no-repeat;
-    background-position: center top 452px, center top -55px;
-    background-size: 1200px auto, 1200px auto;
+    background-position: center top 451px, center top -55px;
+    background-size: 1200px 59px, 1200px 773px;
     text-align: center;
 }
 
@@ -138,12 +138,12 @@ input[type="radio"].visually-hidden {
 }
 
 .welcome-container {
-    padding: 59px 12px 52px 12px;
+    padding: 59px 12px 52px;
     background-color: #ffffff;
 }
 
 .welcome-slogan {
-    margin: 0 auto 30px;
+    margin: 0 auto 29px;
     max-width: 440px;
     padding: 0;
     font-size: 21px;
@@ -186,7 +186,7 @@ input[type="radio"].visually-hidden {
 
 .advantages-content {
     max-width: 400px;
-    padding: 26px 49px 45px;
+    padding: 27px 49px 45px;
 }
 
 .advantages-title {
@@ -226,7 +226,7 @@ input[type="radio"].visually-hidden {
 }
 
 .secondary-item-title {
-    padding-bottom: 10px;
+    padding-bottom: 11px;
 }
 
 .secondary-list {
@@ -241,7 +241,7 @@ input[type="radio"].visually-hidden {
 
 .secondary-item {
     width: 400px;
-    padding: 160px 48px 69px;
+    padding: 160px 48px 68px;
     background-repeat: no-repeat;
 }
 
@@ -320,7 +320,7 @@ input[type="radio"].visually-hidden {
 .search-form {
     z-index: 1;
     width: 568px;
-    padding: 42px 54px 58px;
+    padding: 56px 55px 54px;
     margin: 0 auto;
     text-align: left;
     font-weight: 700;
@@ -334,11 +334,12 @@ input[type="radio"].visually-hidden {
 
 .search-form-row {
     position: relative;
-    padding-bottom: 16px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-bottom: -1px;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
@@ -352,14 +353,16 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form-kid {
-    padding-right: 28px;
+    padding-right: 26px;
 }
 
 .search-form-input {
     width: 346px;
     border: 2px solid transparent;
     text-transform: uppercase;
-    padding: 9px;
+    padding: 9px 11px 9px;
+    padding-right: 40px;
+    margin: 0;
     background-color: #f2f2f2;
     font-weight: 700;
 }
@@ -368,12 +371,20 @@ input[type="radio"].visually-hidden {
     background-color: transparent;
     position: absolute;
     border: none;
+    padding-top: 5px;
+    padding-right: 9px;
     right: 0;
-    width: 38px;
-    height: 38px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
+}
+
+.search-form-label{
+    margin-right: auto;
 }
 
 .search-btn-calendar {
@@ -416,23 +427,30 @@ input[type="radio"].visually-hidden {
 }
 
 .search-form-btn {
-    width: 34px;
+    width: 38px;
     position: relative;
     text-align: center;
     border: none;
     height: 38px;
-    margin: 0px;
+    margin: 0;
     padding: 0;
     background-color: #f2f2f2f2;
 }
 
 .unit-container {
+    font-size: 0;
     background-color: #f2f2f2f2;
 }
 
 .unit-container input {
     width: 38px;
     height: 38px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
     background-color: #f2f2f2;
     text-align: center;
     border: none;
@@ -490,13 +508,13 @@ input[type="radio"].visually-hidden {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 42px;
+    margin-bottom: 23px;
 }
 
 .search-form-button {
     display: block;
     width: 100%;
-    padding: 14px 10px 15px;
+    padding: 17px 15px;
     font-size: 21px;
     text-transform: uppercase;
     color: #ffffff;
@@ -535,8 +553,8 @@ input[type="radio"].visually-hidden {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding-bottom: 26px;
-    padding-top: 26px;
+    padding-bottom: 30px;
+    padding-top: 28px;
     background-color: rgba(254, 254, 254, 0.9);
 }
 
@@ -547,6 +565,7 @@ input[type="radio"].visually-hidden {
 
 .hashtag-text {
     width: 400px;
+    margin-top: 17px;
     padding: 0;
     text-align: center;
     font-weight: 700;
@@ -604,7 +623,7 @@ input[type="radio"].visually-hidden {
 }
 
 .social-list li:not(:last-child) {
-    margin-right: 8px;
+    margin-right: 6px;
 }
 
 .social:hover,
@@ -631,11 +650,12 @@ input[type="radio"].visually-hidden {
 }
 
 .developer span {
-    padding-top: 12px;
-    padding-right: 5px;
+    padding-top: 15px;
 }
+
 .logo {
-    padding-top: 5px;
+    padding-top: 7px;
+    padding-left: 8px;
 }
 
 .logo svg {
@@ -656,7 +676,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter {
-    padding: 27px 60px 7px 72px;
+    padding: 26px 59px 10px 72px;
     color: #ffffff;
     background-image: url("../img/filter-background.jpg");
     background-position: center;
@@ -684,8 +704,7 @@ input[type="radio"].visually-hidden {
     display: inline-block;
     vertical-align: top;
     position: relative;
-    padding-top: 1px;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
     padding-left: 40px;
 }
 
@@ -693,12 +712,16 @@ input[type="radio"].visually-hidden {
     content: "";
     position: absolute;
     display: block;
-    top: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     left: 0;
+    padding-bottom: 28px;
     width: 23px;
     height: 23px;
     background: url("../img/checkbox-off.svg") no-repeat top left;
-    background-size: 23px 23px;
+    background-size: contain;
 }
 
 .filter-checkbox:focus + .filter-checkbox-label::before {
@@ -708,13 +731,12 @@ input[type="radio"].visually-hidden {
 
 .filter-checkbox:checked + .filter-checkbox-label::before {
     background-image: url("../img/checkbox-on.svg");
-    background-size: 27px 23px;
     width: 27px;
     height: 23px;
 }
 
 .filter-checkbox:disabled + label::before {
-    background: url("../img/checkbox-off-disabled.svg");
+    background-image: url("../img/checkbox-off-disabled.svg");
 }
 
 .filter-checkbox:checked:disabled + label::before {
@@ -731,7 +753,7 @@ input[type="radio"].visually-hidden {
 }
 
 .filter-range-title {
-    margin-bottom: 10px;
+    margin-bottom: 9px;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
@@ -740,7 +762,8 @@ input[type="radio"].visually-hidden {
 .price-controls {
     position: relative;
     height: 33px;
-    width: 313px;
+    width: 312px;
+    margin-top: 10px;
     margin-bottom: 20px;
     font-size: 0;
     border: 2px solid #ffffff;
@@ -769,7 +792,7 @@ input[type="radio"].visually-hidden {
 
 .price-controls .min-price,
 .price-controls .max-price {
-    width: 83px;
+    width: 84px;
     padding-top: 4px;
     padding-left: 63px;
 }
@@ -802,9 +825,11 @@ input[type="radio"].visually-hidden {
 
 .range-toggle {
     position: absolute;
-    bottom: 0;
     margin: auto;
-    top: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 4px;
     height: 4px;
     background: #ababab;
@@ -829,8 +854,8 @@ input[type="radio"].visually-hidden {
 
 .btn-transparent {
     display: block;
-    margin: 0px 85px;
-    padding: 6px 34px;
+    margin: 0 85px;
+    padding: 6px 33px;
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
@@ -853,7 +878,7 @@ input[type="radio"].visually-hidden {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    padding: 30px 73px 30px 71px;
+    padding: 28px 71px 31px 71px;
     background: #ffffff;
     border-bottom: 1px solid #e5e5e5;
 }
@@ -871,7 +896,7 @@ input[type="radio"].visually-hidden {
 }
 
 .sorting {
-    padding-top: 5px;
+    padding-top: 8px;
     padding-left: 2px;
     font-size: 12px;
     line-height: 18px;
@@ -888,13 +913,14 @@ input[type="radio"].visually-hidden {
 }
 
 .sorting-filters li {
-    padding-left: 36px;
-    padding-top: 5px;
+    padding-left: 28px;
+    padding-top: 7px;
     list-style: none;
 }
 
 .sorting-filters a {
     text-decoration: none;
+    padding-left: 5px;
     color: rgba(0, 0, 0, 0.3);
     border-bottom: 1px dotted #81b3d2;
 }
@@ -911,6 +937,7 @@ input[type="radio"].visually-hidden {
 
 .sorting-filters .current {
     color: #81b3d2;
+    padding-left: 12px;
     border: none;
     cursor: text;
 }
@@ -924,10 +951,11 @@ input[type="radio"].visually-hidden {
 }
 
 .sorting-icon {
+    padding-top: 3px;
     position: relative;
-    width: 10px;
-    height: 10px;
-    margin-left: 15px;
+    width: 11px;
+    height: 11px;
+    margin-left: 14px;
 }
 
 .sorting-icon::before {
@@ -981,13 +1009,13 @@ input[type="radio"].visually-hidden {
     background: #ffffff;
     border-bottom: 1px solid #e5e5e5;
     width: 100%;
-    padding: 24px 73px 30px 72px;
+    padding: 23px 73px 30px 72px;
 }
 
 .view-result-photo {
     line-height: 0;
     margin-right: 30px;
-    margin-top: 6px;
+    margin-top: 7px;
     min-width: 135px;
 }
 
@@ -1002,6 +1030,7 @@ input[type="radio"].visually-hidden {
 }
 
 .hotel-title a {
+    margin-top: 1px;
     display: block;
     margin-bottom: 6px;
     text-decoration: none;
@@ -1089,7 +1118,8 @@ input[type="radio"].visually-hidden {
 }
 
 .ratio-block .stars {
-    margin-bottom: 43px;
+    margin-top: 2px;
+    margin-bottom: 41px;
     font-size: 18px;
     color: #81b3d2;
 }
@@ -1104,6 +1134,6 @@ input[type="radio"].visually-hidden {
 }
 
 .ratio-block .ratio {
-    padding: 3px 13px;
+    padding: 4px 13px 6px;
     background: #f2f2f2;
 }
