@@ -205,6 +205,10 @@ input[type="radio"].visually-hidden {
     display: block;
 }
 
+.advantages-item-text {
+    margin: 0 2px;
+}
+
 .advantages-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -452,6 +456,7 @@ input[type="radio"].visually-hidden {
     vertical-align: top;
     font-size: 14px;
     line-height: 26px;
+    font-weight: 700;
     margin: 0;
     padding: 0;
     background-color: #f2f2f2;
@@ -1006,7 +1011,6 @@ input[type="radio"].visually-hidden {
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
     background: #ffffff;
     border-bottom: 1px solid #e5e5e5;
     width: 100%;
@@ -1032,27 +1036,37 @@ input[type="radio"].visually-hidden {
 
 .hotel-title a {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     text-decoration: none;
     color: #000000;
 }
 
 .hotel-container {
-    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }
 
-.hotel-type {
-    display: inline-block;
+.hotel-item-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     margin-right: 4px;
     vertical-align: top;
 }
 
-.hotel-type span {
+.hotel-item-info span {
     display: block;
-    margin-bottom: 11px
+    margin-right: 6px;
+    min-width: 110px;
+    margin-bottom: 12px;
 }
 
-.reserve span {
+.hotel-item-btn span {
     display: block;
     margin-bottom: 11px
 }
@@ -1077,6 +1091,7 @@ input[type="radio"].visually-hidden {
 
 .more-btn {
     text-align: center;
+    margin-right: 4px;
     color: #ffffff;
     background-color: #81b3d2;
 }
@@ -1106,7 +1121,7 @@ input[type="radio"].visually-hidden {
     color: rgba(255, 255, 255, 0.3);
 }
 
-.reserve {
+.hotel-item-btn {
     display: inline-block;
     vertical-align: top;
 }
@@ -1115,6 +1130,7 @@ input[type="radio"].visually-hidden {
     text-align: right;
     min-width: 185px;
     margin-top: 2px;
+    margin-left: auto;
 }
 
 .ratio-block .stars {
