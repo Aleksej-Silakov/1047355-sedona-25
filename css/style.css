@@ -1009,9 +1009,9 @@ input[type="radio"].visually-hidden {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
+    justify-content: space-between;
     background: #ffffff;
     border-bottom: 1px solid #e5e5e5;
     width: 100%;
